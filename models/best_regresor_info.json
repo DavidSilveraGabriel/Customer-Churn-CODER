@@ -1,0 +1,41 @@
+{
+    "model_type": "GradientBoostingRegressor",
+    "timestamp": "2024-10-24 23:28:31",
+    "feature_names": [
+        "gender",
+        "Contract",
+        "tenure",
+        "Partner",
+        "PaymentMethod",
+        "MultipleLines",
+        "StreamingTV"
+    ],
+    "parameters": {
+        "alpha": 0.9,
+        "ccp_alpha": 0.0,
+        "criterion": "friedman_mse",
+        "init": null,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 50,
+        "n_iter_no_change": null,
+        "random_state": null,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "metrics": {
+        "mse": 116.28200342048508,
+        "mae": 8.185564358534245,
+        "r2": 0.8708132184037727
+    }
+}
